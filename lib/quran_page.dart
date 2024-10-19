@@ -15,7 +15,8 @@ class QuranPage extends StatelessWidget {
   "الهمزة","الفيل","قريش","الماعون","الكوثر","الكافرون","النصر","المسد","الإخلاص","الفلق","الناس"];
   @override
   Widget build(BuildContext context) {
-    return  Column(
+    return Scaffold(
+      body: Column(
         children: [
           Image.asset("assets/images/qur2an_screen_logo.png"),
           Expanded(
@@ -33,7 +34,7 @@ class QuranPage extends StatelessWidget {
 
           )
         ],
-
+      ),
     );
   }
 }

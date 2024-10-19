@@ -13,7 +13,7 @@ class _SobhaPageState extends State<SobhaPage> {
   List<String> athkar = ["سبحان الله", "الحمدلله", "الله أكبر"];
 
   void ChangeCounter() {
-    angle += 0.2;
+    angle += 0.15;
     Number += 1;
     check += 1;
     if (check > 99) {
